@@ -1,0 +1,75 @@
+<html>
+<head>
+	<h1>Festival of Books</h1>
+	<!--Meta-->
+	<meta name="description"
+		content="Festival of Books">
+	<meta name="keywords"
+		content="festival, books, writing, workshop, authors, horror, fiction, novels, nonfiction">
+	<meta name="robots"
+		content="nofollow">
+	<meta http-equiv="author"
+		content="Karen Judin">
+	<meta http-equiv="pragma"
+		content="no-cache">
+</head>
+<hr>
+<body>
+	<!--Intro-->
+	<h2>Join us at University Hall in Porter Square for the annual <i>Festival of Books</i>.</h2>
+	<!--Tabs-->
+	<ul>
+				<li><a href="index">Home</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="recipelist">Schedule</a></li>
+				<li><a href="contact">Register</a></li>
+			</ul>
+	<!--schedule-->
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col">Monday</th>
+			<th scope="col">Tuesday</th>
+		</tr>
+		<tr>
+			<th scope="row">10 am - 12 pm</th>
+			<td><b>Workshop: Writing Horror</b> Presented by: <i>Jane Doe</i> in room 023</td>
+			<td><b>Mysterious Means</b> Presented by: <i>John Smith</i> in room 217</td>
+		</tr>
+		<tr>
+			<th scope="row">12 pm - 2 pm</th>
+			<td><b>Criminal Activity in Fiction</b> Presented by: <i>Don Winslow</i> in room 031</td>
+			<td><b>The Art of Childrens Stories</b> Presented by: <i>Maggie Brown</i> in room 220</td>
+		</tr>
+		<tr>
+			<th scope="row">2 pm - 4 pm</th>
+			<td><b>Fictional Science</b> Presented by: <i>Steve Harris</i> in the Auditorium</td>
+			<td><b>Workshop: Romance for Dummies</b> Presented by: <i>Francesca Gamez</i> in room 215</td>
+		</tr>
+	</table>
+	<!--Registration-->
+	<iframe 
+	width="450"
+	height="350"
+	src="https://www.google.com/maps/place/1815+Massachusetts+Ave,+Cambridge,+MA+02140/@42.3872291,-71.1196425,17.94z/data=!4m5!3m4!1s0x89e3773dcf1c0c11:0x408464e008c5ce4d!8m2!3d42.3871436!4d-71.1186992:output=embed"></iframe>
+	<form action="http://www.example.com/register">
+		<fieldset>
+			<legend>Register</legend>
+			<label>Name:<br  />
+				<input type="text" name="name"</label><br  />
+			<label>Email:<br  />
+				<input type="text" name="email"</label><br  />
+			<label>Cell Number:<br  />
+				<input type="text" name="cell"></label><br  />
+			<input type="submit" name="Submit">
+		</fieldset>
+	</form>
+	<!--Email Subscription-->
+	<form action"http://www.example.com/subscribe">
+		<p>Subscribe to our email list for updates:</p>
+		<input type="text" name="email">
+		<input type="submit" name="subscribe" value="Subscribe"  />
+	</form>
+	<p>&copy; Festival of Books</p>
+</body>
+</html>
