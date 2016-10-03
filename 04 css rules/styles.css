@@ -1,0 +1,22 @@
+h1 {
+    font-size: 24px ;
+    font-family: Baskerville ;
+    color: firebrick ;
+}
+
+h2 {
+    font-size: 20px ;
+    font-family: sans-serif ;
+    color: gray ;
+    
+}
+
+h3 {
+    color: slategray ;
+}
+
+th {
+    font-size: 16px ;
+    font-family: sans-serif ;
+    color: dodgerblue ;
+}
