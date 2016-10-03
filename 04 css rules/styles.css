@@ -1,28 +1,28 @@
 h1 {
-    font-size: 24px ;
-    font-family: Baskerville ;
-    color: firebrick ;
+    font-size: 32px ;
+    font-family: Helvetica ;
+    color: rebeccapurple;
 }
 
 h2 {
-    font-size: 20px ;
-    font-family: sans-serif ;
-    color: gray ;
+    font-size: 26px ;
+    font-family: serif ;
+    color: lightgreen;
     
 }
 
 h3 {
-    color: slategray ;
+    color: cadetblue;
 }
 
 body {
-    font-size: 16px ;
-    color: darkgray ;
+    font-size: 20px ;
+    color: darkslateblue;
     
 }
 
 th {
-    font-size: 16px ;
-    font-family: sans-serif ;
-    color: dodgerblue ;
+    font-size: 20px ;
+    font-family: serif ;
+    color: lightseagreen;
 }
