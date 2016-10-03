@@ -1,3 +1,8 @@
+li {
+    font-family: Helvetica, sans-serif ;
+    color: mediumpurple ;
+    font-size: 14px ;
+}
 h1 {
     font-size: 32px ;
     font-family: Helvetica ;
@@ -15,6 +20,15 @@ h3 {
     color: cadetblue;
 }
 
+h5 {
+    color: lightseagreen;
+    font-size: 16px ;
+}
+
+a {
+    color: lightseagreen ;
+}
+
 body {
     font-size: 20px ;
     color: darkslateblue;
@@ -24,5 +38,23 @@ body {
 th {
     font-size: 20px ;
     font-family: serif ;
-    color: lightseagreen;
+    color: seagreen;
+}
+
+tr {
+    color: mediumpurple ;
+    font-size: 14px ;
+}
+
+td {
+    color: mediumpurple ;
+    font-size: 14px ;
+}
+
+legend {
+    font-size: 20px ;
+}
+label {
+    font-size: 14px ;
+    color: mediumpurple ;
 }

@@ -1,0 +1,35 @@
+/* Put your CSS here. */
+h1 {
+    margin-bottom: 15px ;
+ 
+}
+h2 {
+    text-transform: uppercase ;
+    font-size: 14px ;
+    font-weight: 200 ;
+    margin-top: -10px ;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    color: gray ;
+    font-size: 14px ;
+    text-transform: uppercase ;
+}
+
+.stanza1_5_7 {
+    font-family: Helvetica, sans-serif ;
+    color: green ;
+    font-size: 14px ;
+}
+
+.stanza2_4_8 {
+    color: darkblue ;
+    font-size: 14px ;
+}
+
+.stanza3_6_9 {
+    font-family: Courier, serif;
+    color: deeppink ;
+    font-size: 14px ;
+}
