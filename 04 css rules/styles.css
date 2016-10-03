@@ -1,3 +1,8 @@
+li {
+    font-family: Arial, sans-serif ;
+    font-size: 14px ;
+}
+
 h1 {
     font-size: 24px ;
     font-family: Baskerville ;
@@ -7,22 +12,45 @@ h1 {
 h2 {
     font-size: 20px ;
     font-family: sans-serif ;
-    color: gray ;
-    
+    color: darkslategray;
 }
 
 h3 {
     color: slategray ;
 }
 
+h5 {
+    color: dimgray ;
+}
+
 body {
     font-size: 16px ;
     color: darkgray ;
-    
+}
+
+a {
+    color: indianred;
 }
 
 th {
     font-size: 16px ;
     font-family: sans-serif ;
     color: dodgerblue ;
+}
+
+td {
+    color: dimgray ;
+}
+
+tr{
+    color: dimgray ;
+}
+
+legend {
+    font-size: 20px ;
+    color: firebrick ;
+}
+
+label {
+   color: coral;
 }
