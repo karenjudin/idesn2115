@@ -1,0 +1,42 @@
+/*MY CSS from scratch */
+/*
+Colors
+Green:
+#d6f4b7 - #e8fdd2
+Blue:
+#a5c5d8 - #d0e9f8
+Teal:
+#a7dfc3 - #cff9e4
+*/
+
+body {
+    font-family: Avenir, sans-serif ;
+}
+
+h1 {
+    background: #d6f4b7;
+}
+#zen-summary {
+    background: #e8fdd2 ;
+}
+h3 {
+    background: #a7dfc3 ; 
+}
+#zen-preamble, #zen-explanation, #zen-participation {
+    background: #cff9e4 ;
+}
+#zen-benefits {
+    background: #d0e9f8 ;
+}
+#zen-requirements {
+    background: #e8fdd2 ;
+}
+footer {
+    background: #a5c5d8 ;
+    height: 150px;
+    padding: 5px ;
+    text-align: right ;
+}
+footer.a:hover {
+    color: black ;
+}

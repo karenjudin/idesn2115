@@ -1,0 +1,59 @@
+/* yes, this is meant to be empty */
+
+body {
+    font-family: 'Vollkorn', serif;
+}
+h1, h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 ;
+    color: #1cc895
+}
+ul {
+/*    list-style-type: square;*/
+    list-style-image: url(checkmark.gif) ;
+    list-style-position: inside ;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+fieldset {
+    border: 1px solid #dcdcdc ;
+    border-radius: 10px ;
+    padding: 20px 40px ;
+}
+legend {
+    background-color:#efefef ;
+    border: 1px solid #dcdcdc ;
+    text-align: left ;
+    text-transform: uppercase ;
+/*    padding: 5px ;*/
+}
+input[type="text"], input[type="email"] {
+    border: 1px solid #000 ;
+/*    font-size: .8em ;*/
+    color: #555 ;
+}
+input[type="text"]:hover, input[type="email"]:hover {
+    border: 1px solid blue ;
+    background-color: #eee ;   
+}
+input[type="submit"] {
+    background-color: #1cc895 ;
+    color: white ;
+    border-radius: 4px ;
+    margin-top: 2em ;
+    font-size: 1.2em ;
+    text-transform: uppercase ;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 ;
+    padding-left: 25px ;
+    padding-right: 25px ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    display: inline-block;
+}
+
+input[type="submit"]:hover {
+    background-color: red ;
+}
