@@ -10,33 +10,104 @@ Teal:
 */
 
 body {
-    font-family: Avenir, sans-serif ;
+    font-family: Bebas Neue, sans-serif;
+    width: 84%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
 }
 
+p {
+    font-family: Avenir, sans-serif ;
+    font-size: 12px ;
+}
+
+a {
+    color: black ;
+}
+a:hover {
+    color: blue ;
+}
 h1 {
     background: #d6f4b7;
+     letter-spacing: 1px;
+    width: 144px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: -20px; 
 }
 #zen-summary {
-    background: #e8fdd2 ;
+    background: #e8fdd2;
+    width: 75%;
+    padding: 1px;
+    margin: 1.4%;
+    padding-left: 8px;
 }
 h3 {
-    background: #a7dfc3 ; 
+    background: #a7dfc3;
+    font-size: 26px;
+    margin: 0px;
+    width: 280px;
+    height: 50px;
 }
+
 #zen-preamble, #zen-explanation, #zen-participation {
     background: #cff9e4 ;
+    width: 70% ;
 }
 #zen-benefits {
-    background: #d0e9f8 ;
+    background: #d0e9f8 ;  
+    height: 300px;
+    text-align: right;
+}
+#zen-benefits h3{
+    background: #a5c5d8 !important ;
+    float: right ;
+    text-align: right ;
+}
+.benefits {
+    float: right ;
+    width: 55% ;
 }
 #zen-requirements {
     background: #e8fdd2 ;
 }
+#zen-requirements h3 {
+    background: #d6f4b7 ;
+}
 footer {
     background: #a5c5d8 ;
     height: 150px;
+    width: 100% ;
     padding: 5px ;
     text-align: right ;
 }
-footer.a:hover {
+footer a {
+/*    text-align: right ;*/
+    font-family: Avenir, sans-serif ;
     color: black ;
+    text-transform: uppercase ;
+    font-size: 12px ;
+}
+footer a:hover {
+    color: black ;
+}
+
+h3.select, h3.archives, h3.resources {
+    visibility: hidden ;
+}
+
+ul {
+    font-family: Avenir, sans-serif ;
+    font-size: 12px ;
+}
+a.design-name, a.designer-name {
+    color: black ;
+}
+ul nav .design-selection {
+    background: #d0e9f8 ;
 }
