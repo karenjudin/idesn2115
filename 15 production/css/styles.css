@@ -45,6 +45,12 @@ section article p.photo_caption {
     font-style: italic ;
 
 }
+/*
+section img.bio {
+    width: 28.6% ;
+    height: 34.1% ;
+}
+*/
 
 footer {
     clear: both ;
