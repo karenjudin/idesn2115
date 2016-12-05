@@ -4,6 +4,9 @@
         <title>Portfolio - Documentary | Karen Judin Photography</title>
         <link type="text/css" rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Oswald:300,400,700" rel="stylesheet">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
     </head>
     <body>
                 <!--        This is the header with the website logo. -->
@@ -32,15 +35,15 @@
                 <p>Duis suscipit, turpis at euismod convallis, nisi neque vulputate elit, et volutpat lectus nulla et elit. Ut placerat neque dui, eu luctus augue fermentum at. In vestibulum eros sit amet purus hendrerit imperdiet. Morbi eros nibh, ullamcorper ut vehicula nec, maximus quis tellus. Cras in felis ac turpis pellentesque rhoncus eu eu ex. Vestibulum sodales nisi ac ex aliquet sodales. Nulla tempus dignissim felis at fermentum. Suspendisse potenti. Duis eu semper eros. Nam a leo turpis. Sed eu nisi nec nisl cursus aliquet.</p>
             </article>
             <article>
-                <img class="float_left_image" src="imagery/image1.png" title="image1"/>
+                <a rel="gallery" href="imagery/image1.png" class="fancybox" title="Harvard Square"><img class="float_left_image" src="imagery/image1.png" title="image1"/></a>
                 <p class="photo_caption">Harvard Square 2016</p>
             </article>
             <article>
-                <img class="float_left_image" src="imagery/image1.png" title="image2"/>
+                <a rel="gallery" href="imagery/image1.png" class="fancybox" title="Harvard Square 2"><img class="float_left_image" src="imagery/image1.png" title="image1"/></a>
                 <p class="photo_caption">Harvard Square 2016</p>
             </article>
             <article>
-                <img class="float_left_image" src="imagery/image1.png" title="image3"/>
+                <a rel="gallery" href="imagery/image1.png" class="fancybox" title="Harvard Square 3"><img class="float_left_image" src="imagery/image1.png" title="image1"/></a>
                 <p class="photo_caption">Harvard Square 2016</p>
             </article>
         </section>
@@ -52,6 +55,11 @@
 
     </body>
 
+    <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
 
 
 </html>
