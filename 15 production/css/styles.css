@@ -39,6 +39,15 @@ section article img.float_left_image {
     margin-right: 3.5em ;
     margin-bottom: .7em ;
 }
+section article p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.7em ;
+}
+section article p.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.7em ;
+    font-weight: 700 ;
+}
 section article p.photo_caption {
     font-family: 'Libre Baskerville', serif;
     font-size: 0.8em ;
