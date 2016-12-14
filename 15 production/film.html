@@ -6,6 +6,7 @@
         <title>Portfolio - Film | Karen Judin Photography</title>
         <link type="text/css" rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Oswald:300,400,700" rel="stylesheet">
+        <script src="menu.js" type="text/javascript"></script>
     </head>
     <body>
                 <!--        This is the header with the website logo. -->
@@ -19,14 +20,31 @@
             <div id="primary_nav"> 
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <div class="dropdown">
+                        <a onclick="myFunction()" class="dropbtn">Portfolio</a>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="documentary.html">Documentary</a>
+                            <a href="expressions.html">Expressions</a>
+                            <a href="tattoos.html">Tattoos</a>
+                            <a href="meandi.html">Me and I</a>
+                            <a href="film.html">
+                                <div class="currentgallery">Film</div>
+                            </a>
+                            <a href="travel.html">Travel</a>
+                        </div>
+                    </div>
+                    <div class="about_nav">
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="cv-resume.html">CV/Resume</a></li>
+                    </div>
                 </ul>
             </div>
                         <!--            Social media navigation. -->
-            <div id="social_nav"> </div>
+            <div id="social_nav"> 
+                <a href="https://www.facebook.com/karenjudin" target="_blank"><img class="facebook" src="imagery/facebook.png"/></a>
+                <a href="https://www.instagram.com/karenmargaux/" target="_blank"><img class="instagram" src="imagery/instagram.png"/></a>
+            </div>
         </nav>
                 <!--        Container for image gallery. -->
         <section>
