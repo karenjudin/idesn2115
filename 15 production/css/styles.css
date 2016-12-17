@@ -20,6 +20,8 @@ header p {
 nav { 
     float: left ;
     width: 15.3% ;
+    height: 540px ;
+    position: relative;
 /*    margin-left: 3.6% ;*/
 /*    font-weight: 300 ;*/
 }
@@ -39,6 +41,7 @@ a:hover {
 
 nav #primary_nav ul {
     list-style-type: none ;
+    height: 80%;
 }
 
 .currentpage , .currentgallery {
@@ -50,9 +53,18 @@ nav #primary_nav ul {
     position: relative ;
     top: 20% ;
 */
-    position: relative ;
+    position: absolute;
+    bottom: 0 ;
     margin-left: 20% ;
-    padding-top: 185% ;
+/*    padding-top: 185% ;*/
+}
+
+#social_nav i {
+font-size: 1.6em ;    
+
+    padding-right: 10px ;
+/*    height: 30px ;*/
+
 }
 
 .about_nav {
