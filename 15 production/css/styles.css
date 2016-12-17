@@ -3,7 +3,7 @@ body {
     font-family: 'Oswald', sans-serif; 
 }
 
-header, nav, div, section, footer {
+header, nav, div, section, footer, article {
 /*    border: 2px solid #d00 ;*/
 }
 
@@ -50,8 +50,8 @@ nav ul ul#dropdown {
 }
 
 .currentpage , .currentgallery a {
-/*    text-decoration: underline ;*/
-    color: red ;
+    text-decoration: underline ;
+/*    color: red ;*/
 }
 
 #social_nav {
@@ -91,27 +91,23 @@ section {
     margin-left: 1.1% ;
     overflow-x: scroll ;
     margin-bottom: 3em ;
-/*    display: table ;*/
-/*    table-layout: fixed;*/
-
+    position: relative ;
 }
+
 section article {
     display: table-cell ;
 }
+section article.artiststatement {
+    vertical-align: top ;
+    padding-top: 22px ;
+}
 section article.artiststatement p {
     width: 400px ;
-    float: left;
-    margin-right: 3em ;
-/*    display:block ;*/
-/*    float: left;*/
-/*    position: absolute;*/
-/*    margin-top: 0 ;*/
-/*    padding-top: 0;*/
+    margin-right: 3em ; 
+    line-height: 1.7em ;
 }
 section article img.float_left_image {
-/*    float: left ;*/
     margin-right: 3.5em ;
-/*    margin-bottom: .7em ;*/
     pointer-events: none ;
 }
 section article p {
