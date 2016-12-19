@@ -12,6 +12,7 @@ header p {
     font-weight: 700 ;
     font-size: 1.65em ;
     position: relative ;
+    padding-top: 8px ;
     left: 3% ;
     text-align: justify ;
     letter-spacing: 1px ;
@@ -48,7 +49,12 @@ nav ul ul#dropdown {
 /*    margin-right: 20px ;*/
     -webkit-padding-start: 15px ;
 }
-
+nav ul ul#dropdown a {
+    color: dimgray ;
+}
+nav ul ul#dropdown a:hover {
+    color: #00aeff;
+}
 .currentpage , .currentgallery a {
     text-decoration: underline ;
 /*    color: red ;*/
@@ -104,7 +110,7 @@ section article.artiststatement {
 section article.artiststatement p {
     width: 400px ;
     margin-right: 3em ; 
-    line-height: 1.7em ;
+    line-height: 1.5em ;
 }
 section article img.float_left_image {
     margin-right: 3.5em ;
@@ -117,7 +123,9 @@ section article p {
 section .bio p {
     font-family: 'Libre Baskerville', serif;
     font-size: 0.7em ;
+    line-height: 1.5em ;
 }
+
 section p.bio_title {
     font-weight: 700 ;
 }
@@ -152,6 +160,10 @@ section img.bio {
 input {
     border-color: black ;
 }
+.form-all {
+    background-image: none;
+    padding-top: 22px;
+}
 .form-label {
     font-family: 'Libre Baskerville', serif; !important
 }
@@ -161,9 +173,12 @@ input {
 section .bio {
     width: 60% ;
 }
+object {
+    padding-top: 22px ;
+}
 footer {
     clear: both ;
-    position: relative ;
+/*    position: relative ;*/
     margin-left: 3% ;
 /*    font-weight: 300 ;*/
 }
